@@ -18,7 +18,7 @@ supported for Python 3.5+.
 Documentation: https://bulwark.readthedocs.io/en/latest/index.html
 
 This project was heavily influenced by the no-longer-supported [Engarde](https://github.com/TomAugspurger/engarde) library
-by Tom Augspurger(thanks for the head start, Tom!),
+by Tom Augspurger (thanks for the head start, Tom!),
 which itself was modeled after
 the R library [assertr](https://github.com/ropenscilabs/assertr).
 
@@ -109,7 +109,7 @@ Use the built-in `CustomCheck` to use your own custom function!
 What if I want to run a lot of tests and want to see all the errors at once?
 You can use the built-in `MultiCheck`.
 It will collect all of the errors
-and either display a warning message of throw an exception based on the `warn` flag.
+and either display a warning message or throw an exception based on the `warn` flag.
 You can even use custom functions with MultiCheck:
 
 ```python
@@ -133,7 +133,7 @@ You can even use custom functions with MultiCheck:
     append_a_df(df, df2)
 ```
 
-See [examples](https://bulwark.readthedocs.io/en/latest/examples.html) to see more advanced usage.
+See [examples](https://bulwark.readthedocs.io/en/latest/examples.html) for more advanced usage.
 
 ## Contributing
 

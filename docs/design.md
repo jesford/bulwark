@@ -13,11 +13,11 @@ Each check:
 
 -   takes a pd.DataFrame as its first argument, with optional additional
     arguments,
--   make an assert about the pd.DataFrame, and
--   return the original, unaltered pd.DataFrame
+-   makes an assert about the pd.DataFrame, and
+-   returns the original, unaltered pd.DataFrame
 
 If the assertion fails, an `AssertionError` is raised and `Bulwark`
-tries to print out some informative information about where the failure
+tries to print out some informative details about where the failure
 occurred.
 
 Decorators

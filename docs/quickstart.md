@@ -1,7 +1,7 @@
 Quickstart
 ==========
 
-Bulwark is designed to be easy to use and easy to add checks to code
+Bulwark is designed to be easy to use and makes it easy to add checks to code
 while you're writing it.
 
 First, install Bulwark:
@@ -11,8 +11,8 @@ pip install bulwark
 ```
 
 Next, import bulwark. You can either use function versions of the checks
-or decorator versions. By convension, import either/both of these as
-follow:
+or decorator versions. By convention, import either/both of these as
+follows:
 
 ```python
 import bulwark.checks as ck
@@ -40,6 +40,6 @@ add_five(df)
 
 You can stack multiple decorators on top of each other to have the first
 failed decorator check result in an assertion error or use the built-in
-MultiCheck to collect all of the errors are raise them at once.
+MultiCheck to collect all of the errors and raise them all at once.
 
-See [examples](examples.html) to see more advanced usage.
+See [examples](examples.html) for more advanced usage.

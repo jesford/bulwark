@@ -37,13 +37,13 @@ Each of these abbreviated workflow steps has additional instructions in sections
 
 ## Development Practices and Standards
 
-- Obey follow PEP-8 and [Google's docstring format](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).
+- Obey PEP-8 and follow [Google's docstring format](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).
   - The only exception to PEP-8 is that line length can be up to 100 characters.
 - Use underscores to separate words in non-class names.
   E.g. `n_samples` rather than `nsamples`.
 - Don't ever use wildcard imports (`from module import *`).
   It's considered to be a bad practice by the [official Python recommendations](https://docs.python.org/3/tutorial/modules.html#importing-from-a-package).
-  The reasons it's undesireable are that it
+  The reasons it's undesirable are that it
   pollutes the namespace,
   makes it harder to identify the origin of code,
   and, most importantly, prevents using a static analysis tool like pyflakes to automatically find bugs.
@@ -66,8 +66,7 @@ Each of these abbreviated workflow steps has additional instructions in sections
 ## Fork and Clone Bulwark
 
 1. You will need your own fork to work on the code. Go to the [Bulwark
-   project page](https://github.com/ZaxR/bulwark) and hit the Fork
-    button.
+   project page](https://github.com/ZaxR/bulwark) and hit the Fork button.
 2. Next, you'll want to clone your fork to your machine:
 
     ```bash
@@ -183,7 +182,7 @@ with a few additional steps before releasing a new version:
     pip install --index-url https://test.pypi.org/simple/bulwark
     ```
 -   Releases are indicated using git tags.
-    Create a tag locally for the apporiate commit in master, and push that tag to GitHub.
+    Create a tag locally for the appropriate commit in master, and push that tag to GitHub.
     Travis's CD is triggered on tags within master:
 
 ```bash
